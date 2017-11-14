@@ -2,4 +2,4 @@
 echo Enter Service Name:
 read serviceName
 
-systemctl enable serviceName
+systemctl enable $serviceName
